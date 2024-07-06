@@ -4,6 +4,11 @@
 @import"prodact/hero1";
 @import"prodact/statictic";
 @import"prodact/sercies";
+@import"./prodact/header";
+@import"./prodact/hero";
+@import"./prodact/sercies";
+@import"./prodact/statictic";
+@import"./prodact/header";
 
 
 
@@ -11,8 +16,3 @@
 
 // block2
 @import"omadshow/_omadshow.scss";
-
-
-body{
-    height: 500vh;
-}

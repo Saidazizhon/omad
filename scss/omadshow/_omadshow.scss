@@ -8,19 +8,25 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        .logo{
+            font-size: 35px;
+            color: #fff;
+        }
         .form{
             width: 100%;
             display: flex;
             justify-content: center;
             gap: 10px;
             input{
-                height: 24px;
+                height: 44px;
+                width: 12%;
                 border-radius: 5px;
                 border: none;
                 padding: 5px;
                 outline: none;
             }
             button{
+                width: 5%;
                 padding: 5px;
                 border-radius: 5px;
                 border: none;
@@ -31,8 +37,8 @@
             color: #fff;
         }
         .btn{
-            width: 200px;
-            height: 40px;
+            width: 250px;
+            height: 55px;
             border-radius: 10px;
             border: none;
             margin-top: -.2px;
